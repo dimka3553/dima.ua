@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Ubuntu Mono', monospace;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: black;
+  color: #2CA640;
+  padding: 5px;
+  word-break: break-all;
+}
+
+.cursor {
+  position: absolute;
+  word-break: break-all;
+}
+
+mark {
+  background-color: #29903a;
+}
+
+pre {
+  font-size: inherit;
+  font-family: inherit;
+  margin: 0;
+}

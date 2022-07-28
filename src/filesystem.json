@@ -1,0 +1,16 @@
+{
+  "root": {
+    "about.txt": "This is Dima Shkabura’s personal website and a simple terminal. Try navigating the folders and files to find out more.",
+    "biography.txt": "2004 - Born.\n2010 - Went to school in Ukraine.\n2014 - Moved to Spain, joined Swans School.\n2015 - Invested for the first time.\n2016 - Found out about crypto.\n2017 - Made and lost lots of money in crypto + got scholarship in Swans.\n2018 - Started the computer building club in School.\n2019 - Created Solvem, although never finished due to complexity.\n2020 - Went to Shrewsbury school in UK. Made a canteen queueing system.\n2021 - Physics project with Oxford proffessor + launched kardiainfo.com.\n2022 - Graduated Shrewsbury School [badly].",
+    "Projects": {
+      "solvem.txt": "Solvem.org was supposed to unite people around sloving global issues on a local scale, however it was never launched as the complexity of creating such a platform was very high",
+      "kardiainfo.txt": "kardiainfo.com is a website that allows you to track asset prices on the KardiaChain network, was reasonably successful at some point in time",
+      "khqueue.txt": "khqueue.com is a queueing system that told students their position in the queue to KH (Shrewsbury school canteen), saved lots of time during the pandemic",
+      "decisionmaker.txt": "the decision maker is a package in this console that helps in the making of thought out decisions"
+    },
+    "Applications": {}
+  },
+  "commands": {
+    "help": "Command list:\n \n---------------|-------------------------------------------|-----------------\nCommand        | Description                               | Usage\n---------------|-------------------------------------------|-----------------\nls             | Lists all files in a directory            | ls\n---------------|-------------------------------------------|-----------------\ncd [directory] | Changes directory to one specified        | cd folder\n---------------|-------------------------------------------|-----------------\ncd ..          | Goes one level up                         | cd ..\n---------------|-------------------------------------------|-----------------\ncat [filename] | Display content of a file                 | cat readme.txt\n---------------|-------------------------------------------|-----------------\ndate           | Display the current system date and time  | date\n---------------|-------------------------------------------|-----------------\nshutdown       | Shut down the system                      | shutdown\n---------------|-------------------------------------------|-----------------\nreboot         | Reboot the system                         | reboot\n---------------|-------------------------------------------|-----------------\nclear          | Clear the terminal                        | clear\n---------------|-------------------------------------------|-----------------\nrun [app]      | runs an app                               | run snake.app\n---------------|-------------------------------------------|-----------------"
+  }
+}
