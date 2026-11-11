@@ -53,7 +53,9 @@
         a { color: var(--blue); text-decoration: none; }
         a:hover { text-decoration: underline; }
 
-        header .mark { width: 56px; height: 56px; display: block; }
+        header .brand { display: flex; align-items: center; gap: 16px; }
+        header .photo { width: 64px; height: 64px; border-radius: 50%; object-fit: cover; display: block; border: 1px solid var(--line); }
+        header .mark { width: 48px; height: 48px; display: block; }
         h1 {
             font-size: 44px;
             font-weight: 700;
@@ -136,10 +138,13 @@
 <body>
     <main>
         <header>
+            <div class="brand">
+            <img class="photo" src="dima.jpg" alt="Dima" width="64" height="64">
             <svg class="mark" viewBox="0 0 100 100" aria-hidden="true">
                 <path d="M0 0L50 0V80H30C13.4315 80 0 66.5685 0 50L0 0Z" fill="#0056B9" />
                 <path d="M50 20H70C86.5685 20 100 33.4315 100 50V100H50V20Z" fill="#FFD800" />
             </svg>
+            </div>
             <h1>Hi, I'm Dima.</h1>
             <p class="lede">I'm from Ukraine. I'm the co-founder and CEO of FaceIQ Labs, a co-founder of Clipify, and I love building systems.</p>
         </header>
